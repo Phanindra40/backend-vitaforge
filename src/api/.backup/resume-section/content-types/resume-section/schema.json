@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resume_sections",
+  "info": {
+    "singularName": "resume-section",
+    "pluralName": "resume-sections",
+    "displayName": "resume-section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Education": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "Master's(Optional)",
+        "Bachelor's",
+        "Intermediate",
+        "High-school"
+      ]
+    },
+    "Skills": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "Java",
+        "React",
+        "Node js",
+        "JavaScript",
+        "Python",
+        "C-Plus",
+        "Figma",
+        "UIUX-design",
+        "web-development",
+        "Full-Stack-Development"
+      ]
+    },
+    "Experience": {
+      "type": "enumeration",
+      "enum": [
+        "Internship"
+      ]
+    },
+    "Summary": {
+      "type": "richtext"
+    }
+  }
+}

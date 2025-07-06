@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resumes",
+  "info": {
+    "singularName": "resume",
+    "pluralName": "resumes",
+    "displayName": "RESUME"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FullName": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "GitHub": {
+      "type": "string"
+    },
+    "LinkedIn": {
+      "type": "string"
+    },
+    "THEMES": {
+      "type": "enumeration",
+      "enum": [
+        "MODERN",
+        "CLASSIC",
+        "PROFESSIONAL",
+        "BASIC"
+      ]
+    },
+    "customFields": {
+      "type": "component",
+      "component": "custom-field.custom-field",
+      "repeatable": true
+    },
+    "experience": {
+      "type": "component",
+      "component": "resume.experience",
+      "repeatable": true
+    },
+    "UID": {
+      "type": "uid"
+    },
+    "SECTIONS": {
+      "type": "component",
+      "component": "custom.resume-section",
+      "repeatable": true
+    },
+    "experiences": {
+      "type": "component",
+      "component": "resume.experience",
+      "repeatable": true
+    }
+  }
+}

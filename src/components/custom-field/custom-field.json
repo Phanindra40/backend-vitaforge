@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_custom_field_custom_fields",
+  "info": {
+    "displayName": "custom-field"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Value": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

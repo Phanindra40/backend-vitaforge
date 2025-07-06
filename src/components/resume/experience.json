@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_resume_experiences",
+  "info": {
+    "displayName": "experience"
+  },
+  "options": {},
+  "attributes": {
+    "jobTitle": {
+      "type": "string",
+      "required": true
+    },
+    "company": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "technologiesUsed": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
