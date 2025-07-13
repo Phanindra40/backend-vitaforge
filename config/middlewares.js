@@ -1,9 +1,15 @@
 module.exports = [
-  'strapi::logger',
   'strapi::errors',
+  {
+    name: 'strapi::cors',
+    config: {
+      origin: ['http://localhost:5173', 'https://vitaforge.netlify.app/'], // Add your frontend domains
+      credentials: true,
+    },
+  },
   'strapi::security',
-  'strapi::cors',
   'strapi::poweredBy',
+  'strapi::logger',
   'strapi::query',
   'strapi::body',
   'strapi::session',
