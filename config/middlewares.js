@@ -5,6 +5,8 @@ module.exports = [
     config: {
       origin: ['http://localhost:5173', 'https://vitaforge.netlify.app/'], // Add your frontend domains
       credentials: true,
+      methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+      headers: '*',
     },
   },
   'strapi::security',
